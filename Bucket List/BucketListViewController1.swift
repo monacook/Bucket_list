@@ -87,5 +87,3 @@ class BucketListViewController: UITableViewController, CancelButtonDelegate, Mis
     }
 }
 
-//testing one two three
-
