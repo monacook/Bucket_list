@@ -70,6 +70,7 @@ class BucketListViewController: UITableViewController, CancelButtonDelegate, Mis
     
     func missionDetailsViewController(controller: MissionDetailsViewController, didFinishEditingMission mission: String, atIndexPath indexPath: Int) {
         missions[indexPath] = mission // replaces the string into the array
+        missions.append(mission)
         dismissViewControllerAnimated(true, completion: nil)
         tableView.reloadData()
     }

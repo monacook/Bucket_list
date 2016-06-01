@@ -16,6 +16,15 @@ class MissionDetailsViewController:UITableViewController {
         
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        if let missionBeingEdited = missionToEdit {
+            newMissionTextField.text = missionBeingEdited
+        print("adding to string")
+        }
+    }
+    
     @IBAction func doneBarButtonPressed(sender: UIBarButtonItem) {
 //        delegate?.missionDetailsViewController(self, didFinishAddingMission: newMissionTextField.text!)
         if var mission = missionToEdit {
