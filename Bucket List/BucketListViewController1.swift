@@ -10,7 +10,7 @@ import UIKit
 
 class BucketListViewController: UITableViewController, CancelButtonDelegate, MissionDetailsViewControllerDelegate {
     
-    var missions = ["Sky diving", "Live in Hawaii"]
+    var missions = [String]()
     
     func cancelButtonPressedFrom(controller: UIViewController) {
         dismissViewControllerAnimated(true, completion: nil)
