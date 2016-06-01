@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		16668F781CE3DD63008F8591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668F771CE3DD63008F8591 /* AppDelegate.swift */; };
-		16668F7A1CE3DD63008F8591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668F791CE3DD63008F8591 /* ViewController.swift */; };
+		16668F7A1CE3DD63008F8591 /* BucketListViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668F791CE3DD63008F8591 /* BucketListViewController1.swift */; };
 		16668F7D1CE3DD63008F8591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16668F7B1CE3DD63008F8591 /* Main.storyboard */; };
 		16668F7F1CE3DD63008F8591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16668F7E1CE3DD63008F8591 /* Assets.xcassets */; };
 		16668F821CE3DD63008F8591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16668F801CE3DD63008F8591 /* LaunchScreen.storyboard */; };
 		16668F8D1CE3DD63008F8591 /* Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668F8C1CE3DD63008F8591 /* Bucket_ListTests.swift */; };
 		16668F981CE3DD63008F8591 /* Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668F971CE3DD63008F8591 /* Bucket_ListUITests.swift */; };
+		16668FA61CE3F1FF008F8591 /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668FA51CE3F1FF008F8591 /* MissionDetailsViewController.swift */; };
+		16668FA81CE3F70D008F8591 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668FA71CE3F70D008F8591 /* CancelButtonDelegate.swift */; };
+		16668FAA1CE4011D008F8591 /* Missiondetailviewcontrollerdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16668FA91CE4011C008F8591 /* Missiondetailviewcontrollerdelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		16668F741CE3DD63008F8591 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16668F771CE3DD63008F8591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16668F791CE3DD63008F8591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16668F791CE3DD63008F8591 /* BucketListViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController1.swift; sourceTree = "<group>"; };
 		16668F7C1CE3DD63008F8591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16668F7E1CE3DD63008F8591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16668F811CE3DD63008F8591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		16668F931CE3DD63008F8591 /* Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16668F971CE3DD63008F8591 /* Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		16668F991CE3DD63008F8591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16668FA51CE3F1FF008F8591 /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		16668FA71CE3F70D008F8591 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		16668FA91CE4011C008F8591 /* Missiondetailviewcontrollerdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missiondetailviewcontrollerdelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				16668F771CE3DD63008F8591 /* AppDelegate.swift */,
-				16668F791CE3DD63008F8591 /* ViewController.swift */,
+				16668F791CE3DD63008F8591 /* BucketListViewController1.swift */,
 				16668F7B1CE3DD63008F8591 /* Main.storyboard */,
+				16668FA71CE3F70D008F8591 /* CancelButtonDelegate.swift */,
+				16668FA91CE4011C008F8591 /* Missiondetailviewcontrollerdelegate.swift */,
+				16668FA51CE3F1FF008F8591 /* MissionDetailsViewController.swift */,
 				16668F7E1CE3DD63008F8591 /* Assets.xcassets */,
 				16668F801CE3DD63008F8591 /* LaunchScreen.storyboard */,
 				16668F831CE3DD63008F8591 /* Info.plist */,
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					16668F731CE3DD63008F8591 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7EF4KY45D7;
 					};
 					16668F871CE3DD63008F8591 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16668F7A1CE3DD63008F8591 /* ViewController.swift in Sources */,
+				16668FAA1CE4011D008F8591 /* Missiondetailviewcontrollerdelegate.swift in Sources */,
+				16668F7A1CE3DD63008F8591 /* BucketListViewController1.swift in Sources */,
+				16668FA61CE3F1FF008F8591 /* MissionDetailsViewController.swift in Sources */,
+				16668FA81CE3F70D008F8591 /* CancelButtonDelegate.swift in Sources */,
 				16668F781CE3DD63008F8591 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Bucket List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Bucket-List";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.BucketList2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Bucket List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Bucket-List";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.BucketList2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
